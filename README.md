@@ -26,7 +26,7 @@ This project is based on two official Keras time-series examples:
 
 ## Transformer Classification
 
-The Transformer was run for 150 epochs and resulted in a final evaluation of  
+The Transformer was run for 150 epochs (file `timeseries_classification_transformer(1).ipynb`) and resulted in a final evaluation of  
 [0.6928 loss, 0.5159 accuracy], which is approximately equivalent to random guessing.
 
 ### Observations
@@ -38,7 +38,7 @@ The Transformer was run for 150 epochs and resulted in a final evaluation of
 
 ## LSTM Forecasting
 
-The baseline LSTM model was successfully trained using the provided code.
+The baseline LSTM model was successfully trained using the provided code. The code is given in the file `timeseries_weather_forecasting(3).ipynb`.
 
 ### Observations
 - Training loss decreases steadily, indicating that the model is learning.
