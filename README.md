@@ -1,15 +1,15 @@
 # Timeseries Project
-
 Time Series Modeling with Deep Learning:  
 - Classification using Transformer  
 - Forecasting using LSTM
 
-Course: *Deep Learning for Engineers (CMPE 401), University of British Columbia* 
+Course: Deep Learning for Engineers (CMPE 401), University of British Columbia
 
-Student: Elísa Inger Jónsdóttir 
-
+Student: Elísa Inger Jónsdóttir
+  
 Professor: Ling Bai
 
+---
 This project is based on two official Keras time-series examples:
 
 - **Transformer Classification**  
