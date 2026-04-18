@@ -25,11 +25,16 @@ This project is based on two official Keras time-series examples:
 # Reproducing the Baseline
 
 ## Transformer Classification
-(To be completed)
+
+The Transformer was run for 150 epochs and resulted in a final evaluation of  
+[0.6928 loss, 0.5159 accuracy], which is approximately equivalent to random guessing.
 
 ### Observations
 
-### Visualizations
+- The training loss remained around **0.693**, which is the expected loss for a binary classification model making random predictions.
+- The accuracy stayed close to **50–52%**, further confirming that the model did not learn meaningful patterns from the data.
+- There was no noticeable improvement over epochs, indicating that the model failed to converge and indeed did stop early at epoch 45.
+- Compared to the official Keras example (which achieves ~95% accuracy), this suggests that something in the training setup or data pipeline is not functioning as intended.
 
 ## LSTM Forecasting
 
